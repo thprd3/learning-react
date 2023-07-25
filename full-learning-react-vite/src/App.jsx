@@ -3,9 +3,7 @@ import Navbar from "./components/project1/Navbar.jsx"
 import Main from "./components/project1/Main.jsx"
 import Footer from "./components/project1/Footer.jsx"
 
-function App() {
-  // const [count, setCount] = useState(0)
-  
+function App() {  
   return (
     <>
       <div className="project1">
@@ -13,8 +11,8 @@ function App() {
         <Navbar />
         <Main />
         <Footer />
-
       </div>
+
       <div className="project2">
         <h1>Project 2 - x</h1>
       </div>
